@@ -1,0 +1,94 @@
+name: mercantis_flutter
+description: App Mercantis powered by TanisTecnologia
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_money_formatter: ^0.8.3
+  font_awesome_flutter: ^8.5.0
+  dio: ^3.0.8
+  bloc_pattern: ^2.5.1
+  flutter_modular: ^0.1.8
+  slidy: ^1.4.3
+  http: ^0.12.0+4
+  flutter_spinkit: ^4.1.1+1
+  expandable: ^4.0.2
+  url_launcher: ^5.4.1
+  pretty_dio_logger: ^1.1.0
+  mask_text_input_formatter: ^1.0.6
+  flutter_conditional_rendering: ^1.1.1
+  page_transition: ^1.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
+  fonts:
+    - family: OpenSansCondensedBold
+      fonts:
+        - asset: fonts/OpenSansCondensed-Bold.ttf
+    - family: OpenSansCondensedLight
+      fonts:
+        - asset: fonts/OpenSansCondensed-Light.ttf
+    - family: OpenSansBold
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+    - family: OpenSansRegular
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+    - family: Oswald
+      fonts:
+        - asset: fonts/Oswald-Regular.ttf
+    - family: Viga
+      fonts:
+        - asset: fonts/Viga-Regular.ttf
+    - family: Lalezar
+      fonts:
+        - asset: fonts/Lalezar-Regular.ttf
+    - family: BenchNine
+      fonts:
+        - asset: fonts/BenchNine-Regular.ttf
+    - family: Bebas
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
+    - family: NunitoSans
+      fonts:
+        - asset: fonts/NunitoSans-Regular.ttf
+        - asset: fonts/NunitoSans-Italic.ttf
+          style: italic
+        - asset: fonts/NunitoSans-Bold.ttf
